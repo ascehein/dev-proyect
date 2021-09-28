@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnriqueHernandezpicture</title>
+    <link rel="stylesheet" href="/css/estilogaleria.css">
+</head>
+<body>
+    <header class="header" id="origin">
+        <div class="menu-container">
+            <img class="img-nav" src="images/logo camara sin fondo.png" alt="">
+            <nav class="nav-origin">
+                <a href="index.html" class="nav-menu">Inicio</a>
+                <a href="index.html" class="nav-menu">Sobre mi</a>
+                <a href="#origin" class="nav-menu">Galeria</a>
+                <a href="contacto.html" class="nav-menu">Contacto</a>
+            </nav>    
+        </div>   
+    </header>
+
+    <main>
+        
+        <div class="texto-galeria">
+            <div class="vertical"></div>
+            <div class="style-btn">
+                <h1 id="">PORTAFOLIO</h1>
+                <div class="btn-margin">
+                    <p class="btn" id="mibtn">AGREGAR IMAEGEN</p>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="formulario">
+                        <form action="" class="form">
+
+                            <input type="file" name="file" id="pDocument file" class="archivo" accept=".jpg, .png, .jpeg">
+
+
+                            <button type="button" class="btnProduct" onclick="addImg()">Agregar Imagen</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="column2" id="divImg">
+
+            </div>
+            <div class="column" id="">
+                <img src="galeria/foto 1.jpg" alt="foto 1">
+                <img src="galeria/foto 2.jpg" alt="foto 2">
+                <img src="galeria/foto 3.jpg" alt="foto 3">
+                <img src="galeria/foto 4.jpg" alt="foto 4">
+            </div>
+            <div class="column">
+                <img src="galeria/foto 5.jpg" alt="foto 1">
+                <img src="galeria/foto 6.jpg" alt="foto 2">
+                <img src="galeria/foto 7.jpg" alt="foto 3">
+                <img src="galeria/foto 8.jpg" alt="foto 4">
+            </div>
+            <div class="column">
+                <img src="galeria/foto 9.jpg" alt="foto 1">
+                <img src="galeria/foto 10.jpg" alt="foto 2">
+                <img src="galeria/foto 11.jpg" alt="foto 3">
+                <img src="galeria/foto 12.jpg" alt="foto 4">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+            
+        <hr class="hr-footer">
+        <div class="footer-container">
+            <p>© 2021 Enrique Hernández</p>
+            <div class="social">
+                <a href=""><img src="images/bxl-facebook-circle.svg" alt=""></a>
+                <a href="https://www.instagram.com/ehm_andrew/"><img src="images/bxl-instagram.svg" alt=""></a>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="js/subirImg.js"></script>
+    <script src="js/modal.js"></script>
+    
+</body>
+</html>

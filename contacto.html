@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnriqueHernandezpicture</title>
+    <link rel="stylesheet" href="css/estilocontacto.css">
+</head>
+<body>
+    <header class="header" id="origin">
+        <div class="menu-container">
+            <img class="img-nav" src="images/logo camara sin fondo.png" alt="">
+            <nav class="nav-origin">
+                <a href="index.html" class="nav-menu">Inicio</a>
+                <a href="index.html" class="nav-menu">Sobre mi</a>
+                <a href="galeria.html" class="nav-menu">Galeria</a>
+                <a href="contacto.html" class="nav-menu">Contacto</a>
+            </nav>    
+        </div>   
+    </header>
+<div class="contacto">
+    <div class="vertical"></div>
+    <h2>CONTACTAME</h2>
+</div>
+    <main>
+        
+        <div class="todo">
+            <div class="texto">
+                <p>Si tienes alguna pregunta, por favor rellena el siguiente formulario y habla conmigo para consultar algún tipo de servicio u otra duda que tengas - ¡No dudes en contactarme!</p>
+            </div>
+            
+            <form class="inputs" id="formulario">
+                <div class="input-field">
+                    <h2>Enviame un mensaje</h2>
+                </div>
+                    <p>Nombre:</p>
+                <div class="input-field">
+                    <input type="text" autocomplete="off"  id="Nombre">
+                </div>
+                    <p>E-mail:</p>
+                <div class="input-field">
+                    <input type="email" autocomplete="off" placeholder="Ejemplo@Ejemplo.com" id="email">
+                </div >
+                
+                    <p>Teléfono:</p>
+                <div class="input-field">
+                    <input type="tel" autocomplete="off" id="telefono">
+                </div>
+                
+                <p>Mensaje:</p>
+                <div class="msg">
+                    <textarea class="textarea-form" name="" id="mensaje" cols="10" rows="10" placeholder="Ingresa tu mensaje"></textarea>
+                </div>
+                <div class="boton">
+                    <input type="submit" value="Enviar" onclick="return enviarDatoss();" class="btn" id="enviado">
+                </div>
+                
+            </form>
+        </div>
+    
+    
+    </main>
+
+    <footer class="footer">
+            
+        <hr class="hr-footer">
+        <div class="footer-container">
+            <p>© 2021 Enrique Hernández</p>
+            <div class="social">
+                <a href=""><img src="images/bxl-facebook-circle.svg" alt=""></a>
+                <a href="https://www.instagram.com/ehm_andrew/"><img src="images/bxl-instagram.svg" alt=""></a>
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="js/datos.js"></script>
+    
+</body>
+</html>
